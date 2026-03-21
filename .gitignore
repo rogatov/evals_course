@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Secrets & env files
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Logs
+*.log
+
+# Data (large files)
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+data/
+datasets/
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+models/
+
+# OS
+.DS_Store
+Thumbs.db
